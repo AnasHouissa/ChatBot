@@ -1,0 +1,398 @@
+{
+    "intents": [
+        {
+            "context": "",
+            "tag": "greetings",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Greetings",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Howdy",
+                "Hey there"
+            ],
+            "responses": [
+                "Hello!",
+                "Hi there!",
+                "Hey, how's it going?",
+                "Welcome!",
+                "Nice to see you!",
+                "How can I help you today?",
+                "Greetings, friend!",
+                "Hey, what's up?",
+                "Hi, how are you doing?"
+            ]
+        },
+        {
+            "context": "",
+            "tag": "goodbye",
+            "patterns": [
+                "Adios",
+                "Until next time",
+                "Catch you later",
+                "Take care",
+                "See ya",
+                "Later",
+                "Farewell",
+                "Bye-bye"
+            ],
+            "responses": [
+                "Goodbye",
+                "See you later",
+                "Take care",
+                "Have a nice day",
+                "It was nice talking to you",
+                "Bye for now"
+            ]
+        },
+        {
+            "context": "",
+            "tag": "state",
+            "patterns": [
+                "How are you",
+                "How are you doing"
+            ],
+            "responses": [
+                "I'm doing well, thank you for asking.",
+                "I'm just a machine, so I don't have feelings, but I'm functioning properly!",
+                "I'm here to assist you, so I'm always ready to help.",
+                "As an AI, I don't have emotions, but I'm always ready to chat with you.",
+                "I'm doing great, thanks for checking in!"
+            ]
+        },
+        {
+            "context": "",
+            "tag": "age",
+            "patterns": [
+                "How old are you?",
+                "What's your age?",
+                "When were you born?"
+            ],
+            "responses": [
+                "I'm sorry, I don't have an age as I am an artificial intelligence.",
+                "I am ageless, but thank you for asking!",
+                "I'm a machine learning model, so I don't age like humans do.",
+                "I was created recently, so I'm quite young in that sense."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "name",
+            "patterns": [
+                "What's your name?",
+                "Who are you?",
+                "What do you call yourself?"
+            ],
+            "responses": [
+                "I am Esprito, a language model developed by GoBrains.",
+                "My name is Esprito and I'm here to assist you.",
+                "I don't have a physical presence or identity, but you can call me Esprito.",
+                "I'm an AI language model called Esprito. How can I help you today?"
+            ]
+        },
+        {
+            "context": "",
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help",
+                "I appreciate it",
+                "Thanks a lot",
+                "Thank you so much",
+                "You're amazing",
+                "You're the best"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure",
+                "You're most welcome!",
+                "Glad I could assist you",
+                "No problem at all",
+                "Always happy to lend a hand",
+                "It was my pleasure to assist you",
+                "Thank you for the kind words",
+                "You're too kind!"
+            ]
+        },
+        {
+            "context": "",
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who are you",
+                "What are you",
+                "Can you tell me about yourself?",
+                "Introduce yourself",
+                "What's your name?",
+                "What do you do?",
+                "What's your purpose?",
+                "What's your function?"
+            ],
+            "responses": [
+                "I'm Esprino, a chatbot designed to assist you in Esprit.",
+                "I'm your assistant in Esprit, here to help you with anything you need.",
+                "I'm an AI-powered chatbot created to provide support and guidance to Esprit users.",
+                "I am a chatbot developed by Esprit to assist you with any questions you may have.",
+                "I'm a virtual assistant designed to help you with any queries you might have about Esprit."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "morningSessionStart",
+            "patterns": [
+                "Can you tell me the time of the first class in the morning?",
+                "What time do I need to be in class in the morning?",
+                "What time does the school day start?",
+                "When is the first class scheduled in the morning?",
+                "What is the timetable for morning classes?",
+                "When does the morning schedule start?",
+                "What is the start time for morning classes?",
+                "What is the first class in the morning?",
+                "What time do we need to arrive at school for the morning session?",
+                "What time do I need to be in class in the morning?",
+                "What time does the school day start?",
+                "When is the first class scheduled in the morning?"
+            ],
+            "responses": [
+                "The morning session starts at 9:00 AM.",
+                "Morning sessions always start at 9:00 AM",
+                "Usually at 9:00 AM"
+            ]
+        },
+        {
+            "context": "",
+            "tag": "morningSessionDuration",
+            "patterns": [
+                "What is the morning session duration?",
+                "How many hours does the morning session last?",
+                "What time does the morning session end?",
+                "When does the morning session usually finish?",
+                "How long is the morning session at Esprit?",
+                "What is the duration of morning classes?",
+                "When does the morning session finish?",
+                "How many hours is the morning session?"
+            ],
+            "responses": [
+                "The morning session lasts for 3 hours, from 9:00 AM to 12:15 PM with a 15-minute break at 10:30 AM",
+                "The duration of morning sessions is 3 hours, from 9:00 AM to 12:15 PM with a 15-minute break at 10:30 AM",
+                "Morning sessions usually end at 12:15 PM",
+                "The morning session lasts for 3 hours, ending at 12:15 PM",
+                "Morning sessions are 3 hours long, from 9:00 AM to 12:15 PM with a 15-minute break at 10:30 AM",
+                "The duration of morning sessions is 3 hours, from 9:00 AM to 12:15 PM with a 15-minute break at 10:30 AM",
+                "The morning session usually ends at 12:15 PM",
+                "Morning sessions last for 3 hours, ending at 12:15 PM"
+            ]
+        },
+        {
+            "context": "",
+            "tag": "weekend",
+            "patterns": [
+                "Are there any weekend classes at Esprit?",
+                "Do we have school on weekends?",
+                "Are they sessions on weekends?",
+                "Is the campus open on weekends?",
+                "What are the campus hours on weekends?",
+                "Do we have access to the labs on weekends?",
+                "What can we do on weekends in the campus?",
+                "Are there any activities on weekends at Esprit?",
+                "What are the weekend activities at Esprit?"
+            ],
+            "responses": [
+                "No there are no weekend classes at Esprit.",
+                "Of course no ahaha don't panic.",
+                "There are no sessions on weekdends",
+                "Weekends are for resting",
+                "The campus is closed on weekends.",
+                "The campus hours on weekends are from 8:00 AM to 6:00 PM.",
+                "The labs are not accessible on weekends.",
+                "Weekends are a time for students and staff to take a break and recharge.",
+                "There are no organized activities on weekends at Esprit, but you are welcome to use the campus facilities for your personal projects and activities."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "hoursPerDay",
+            "patterns": [
+                "How many hours of classes are there per day at Esprit?",
+                "How long are sessions in a day",
+                "How many hours of lectures do we have each day?",
+                "What is the duration of a typical day at Esprit?",
+                "How long does a day of classes last?",
+                "What is the daily schedule for classes at Esprit?",
+                "How many hours of study should I expect per day?",
+                "What is the breakdown of hours per day for classes?"
+            ],
+            "responses": [
+                "There are 6 hours of classes at Esprit.",
+                "Only 6 hours , 3 in the morning and 3 in the afternoon",
+                "Only 6 dont' panic",
+                "A typical day at Esprit lasts for 6 hours.",
+                "You will have 6 hours of lectures each day.",
+                "The duration of a day of classes is 6 hours.",
+                "The daily schedule for classes at Esprit is from 9:00 AM to 12:15 PM and from 1:30 PM to 4:45 PM, with a 15-minute break at 10:30 AM and a one-hour break for lunch.",
+                "You should expect 6 hours of study per day at Esprit.",
+                "The breakdown of hours per day for classes is 3 hours in the morning and 3 hours in the afternoon."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "tuitionFees",
+            "patterns": [
+                "How much are tuition fees at Esprit?",
+                "What is the cost of studying at Esprit?",
+                "Can you tell me about the tuition fees at Esprit?",
+                "How much is the current payment for Esprit per year?",
+                "What is the current fee per year?",
+                "How much do I need to pay per year to study at Esprit?"
+            ],
+            "responses": [
+                "Tuition fees at Esprit vary depending on degree level. Please contact the admissions office for more information.",
+                "The current payment for Esprit per year is 7800dt. This amount increases each year for new students.",
+                "Tuition fees for Esprit are currently 7800dt per year, but this amount increases each year for new students.",
+                "The current fee per year for Esprit is 7800dt, but keep in mind that this amount increases each year for new students."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "payment",
+            "patterns": [
+                "What is the RIB for paying the bank for Esprit Payment?",
+                "Can you provide me with the RIB for Esprit Payment?",
+                "What is the RIB for tuition fee payment at Esprit?"
+            ],
+            "responses": [
+                "The RIB for paying the bank for Esprit Payment is 578965412245675487."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "paymentDeadline",
+            "patterns": [
+                "When is the tuition fee payment due?",
+                "Is there a deadline for paying tuition fees?",
+                "What happens if I don't pay my tuition fees on time?"
+            ],
+            "responses": [
+                "The due date for tuition fee payments varies depending on the program and degree level. Please contact the admissions office for more information.",
+                "Yes, there is a deadline for paying tuition fees. The exact date varies depending on the program and degree level. Please contact the admissions office for more information.",
+                "If you don't pay your tuition fees on time, there may be late payment fees and your enrollment may be impacted. Please contact the admissions office for more information."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "paymentMethod",
+            "patterns": [
+                "Can I pay my tuition fees in installments?",
+                "Is there a payment plan available for tuition fees?",
+                "What are the payment options for tuition fees?"
+            ],
+            "responses": [
+                "Yes, Esprit offers payment plans for tuition fees. Please contact the admissions office for more information.",
+                "There are payment plans available for tuition fees. Please contact the admissions office for more information.",
+                "Esprit offers various payment options for tuition fees, including installment plans. Please contact the admissions office for more information."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "parkingFees",
+            "patterns": [
+                "How much does it cost to park at Esprit University?",
+                "What are the parking fees at Esprit University?",
+                "Is there a fee for parking at Esprit University?",
+                "How much do I have to pay to use the parking lot at Esprit University?"
+            ],
+            "responses": [
+                "It costs 120 Dt per month to use Esprit Univeristy parking.",
+                "The parking fee at Esprit University is 120 Dt per month.",
+                "To use the parking lot at Esprit University, you will need to pay 120 Dt per month."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "buildingsUnderground",
+            "patterns": [
+                "What is the underground floor of the ABC building used for?",
+                "What are the workshop rooms in the ABC building used for?",
+                "Can you tell me about the underground floor of the ABC building?",
+                "What is the purpose of the ABC building's basement floor?",
+                "What are the basement rooms of the ABC building used for?",
+                "What is the ABC building's lower level used for?",
+                "What is the ABC building's subterranean level used for?",
+                "What is the ABC building's underground floor used for?"
+            ],
+            "responses": [
+                "The underground floor of the ABC building has workshop rooms.",
+                "The workshop rooms in the ABC building are used for hands-on projects and group activities.",
+                "The underground floor of the ABC building is used for workshops and other hands-on activities.",
+                "The purpose of the ABC building's basement floor is to provide space for workshops and other activities.",
+                "The basement rooms of the ABC building are used for hands-on projects and group activities.",
+                "The lower level of the ABC building is used for workshops and other hands-on activities.",
+                "The subterranean level of the ABC building is used for workshops and other hands-on activities.",
+                "The underground floor of the ABC building is used for hands-on projects and group activities."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "buildingsNbIJK",
+            "patterns": [
+                "How many buildings are Blocks I, J, and K located in?",
+                "In how many buildings are Blocks I, J, and K situated?",
+                "Which building houses Blocks I, J, and K?",
+                "Are Blocks I, J, and K in one building or multiple buildings?",
+                "What is the name of the building that contains Blocks I, J, and K?",
+                "How many buildings are Blocks I, J, and K in?",
+                "Blocks I, J, and K are in how many buildings?"
+            ],
+            "responses": [
+                "Blocks I, J, and K are located in one building.",
+                "Blocks I, J, and K are situated in a single building.",
+                "The building that houses Blocks I, J, and K is a single building.",
+                "Blocks I, J, and K are located in one building called [Building Name]."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "buildingsFrontD",
+            "patterns": [
+                "Which building is located in front of the D building?",
+                "What building is situated in front of the D building?",
+                "Can you tell me the name of the building located in front of the D building?",
+                "What is the name of the building that faces the D building?",
+                "What is the building in front of the D building?",
+                "What is the name of the building that is across from the D building?",
+                "Which building faces the D building?"
+            ],
+            "responses": [
+                "The H building is located in front of the D building.",
+                "The building in front of the D building is the H building.",
+                "The name of the building that is located in front of the D building is the H building.",
+                "The building that faces the D building is the H building."
+            ]
+        },
+        {
+            "context": "",
+            "tag": "buildingsCafeteria",
+            "patterns": [
+                "Is there a cafeteria on the ESPRIT University campus?",
+                "Where is the cafeteria located on the ESPRIT University campus?",
+                "What building is the cafeteria located in on the ESPRIT University campus?",
+                "Where can I find the cafeteria on ESPRIT University campus?",
+                "Which building houses the cafeteria on ESPRIT University campus?"
+            ],
+            "responses": [
+                "The cafeteria is located in the ABC building on the ESPRIT University campus.",
+                "You can find the cafeteria on the ground floor of the ABC building on the ESPRIT University campus.",
+                "The cafeteria is located in the ABC building on the ESPRIT University campus.",
+                "The cafeteria is situated in the ABC building on the ESPRIT University campus.",
+                "The ABC building is where you can find the cafeteria on the ESPRIT University campus."
+            ]
+        }
+    ]
+}
